@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation=
+                   "http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+    <info organisation="trajber" module="testeivy"/>
+    <dependencies>
+        <dependency org="org.jboss.netty" name="netty" rev="3.2.4.Final" transitive="false" conf="*->*,!sources,!javadoc"/>
+        <dependency org="org.slf4j" name="slf4j-api" rev="1.6.1" transitive="false" conf="*->*,!sources,!javadoc" />
+        <dependency org="net.sf.ehcache" name="ehcache" rev="2.4.2" transitive="false" conf="*->*,!sources,!javadoc" />
+        <dependency org="log4j" name="log4j" rev="1.2.16" transitive="false" conf="*->*,!sources,!javadoc" />
+        <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.1" transitive="false" conf="*->*,!sources,!javadoc"  />
+    </dependencies>
+</ivy-module>
